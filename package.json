@@ -1,0 +1,26 @@
+{
+  "name": "gatsby-mongodb",
+  "version": "1.0.0",
+  "private": true,
+  "description": "gatsby-mongodb",
+  "author": "psriprac",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "gatsby": "^4.17.1",
+    "gatsby-plugin-react-helmet": "^5.17.0",
+    "gatsby-source-mongodb": "^4.17.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0"
+  }
+}
